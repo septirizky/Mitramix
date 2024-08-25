@@ -8,7 +8,7 @@ const Banner = () => {
         <div id="slide1" className="relative w-full carousel-item">
           <figure className="relative w-full overflow-hidden h-96 rounded-xl">
             <Image
-              src="/slide1.jpg"
+              src="/slide1.jpeg"
               alt="banner1"
               sizes="100%"
               fill
@@ -17,7 +17,7 @@ const Banner = () => {
             />
           </figure>
           <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-            <Link href="#slide4" className="btn btn-circle">
+            <Link href="#slide5" className="btn btn-circle">
               ❮
             </Link>
             <Link href="#slide2" className="btn btn-circle">
@@ -29,7 +29,7 @@ const Banner = () => {
         <div id="slide2" className="relative w-full carousel-item">
           <figure className="relative w-full overflow-hidden h-96 rounded-xl">
             <Image
-              src="/slide2.jpg"
+              src="/slide2.jpeg"
               alt="banner2"
               sizes="100%"
               fill
@@ -50,7 +50,7 @@ const Banner = () => {
         <div id="slide3" className="relative w-full carousel-item">
           <figure className="relative w-full overflow-hidden h-96 rounded-xl">
             <Image
-              src="/slide3.jpg"
+              src="/slide3.jpeg"
               alt="banner3"
               sizes="100%"
               fill
@@ -71,7 +71,7 @@ const Banner = () => {
         <div id="slide4" className="relative w-full carousel-item">
           <figure className="relative w-full overflow-hidden h-96 rounded-xl">
             <Image
-              src="/slide4.jpg"
+              src="/slide4.jpeg"
               alt="banner4"
               sizes="100%"
               fill
@@ -81,6 +81,27 @@ const Banner = () => {
           </figure>
           <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
             <Link href="#slide3" className="btn btn-circle">
+              ❮
+            </Link>
+            <Link href="#slide5" className="btn btn-circle">
+              ❯
+            </Link>
+          </div>
+        </div>
+
+        <div id="slide5" className="relative w-full carousel-item">
+          <figure className="relative w-full overflow-hidden h-96 rounded-xl">
+            <Image
+              src="/slide5.jpeg"
+              alt="banner5"
+              sizes="100%"
+              fill
+              priority
+              className="object-cover"
+            />
+          </figure>
+          <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+            <Link href="#slide4" className="btn btn-circle">
               ❮
             </Link>
             <Link href="#slide1" className="btn btn-circle">
