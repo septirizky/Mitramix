@@ -24,7 +24,7 @@ export default function Home() {
             Selamat Datang di
           </h1>
         </div>
-        <div className="flex justify-center items-center m-7">
+        <div className="flex justify-center items-center bg-white">
           <Image src="/MitraMix.png" alt="MitraMix" width={460} height={460} />
         </div>
         <div className="grid grid-cols-1 gap-4 sm:grid-cols-1 md:grid-cols-2">
