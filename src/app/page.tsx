@@ -28,13 +28,13 @@ export default function Home() {
           <Image src="/MitraMix.png" alt="MitraMix" width={460} height={460} />
         </div>
         <div className="grid grid-cols-1 gap-4 sm:grid-cols-1 md:grid-cols-2">
-          <div className=" font-serif text-2xl text-white text-center">
+          <div className="font-serif text-2xl text-white text-center">
             <p>
               Siap melayani berbagai proyek konstruksi besar dan kecil se
               Jabodetabek.
             </p>
           </div>
-          <div className="text-white md:ml-16">
+          <div className="font-serif text-2xl text-white md:ml-16">
             <div className="flex m-5">
               <Image src="/check.png" alt="check" width={30} height={30} />
               <h4 className="ml-5">Supplier Beton Readymix</h4>
