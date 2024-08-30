@@ -34,7 +34,7 @@ export default function Home() {
               Jabodetabek.
             </p>
           </div>
-          <div className="font-serif text-2xl text-white md:ml-16">
+          <div className="font-serif text-xl text-white md:ml-16">
             <div className="flex m-5">
               <Image src="/check.png" alt="check" width={30} height={30} />
               <h4 className="ml-5">Supplier Beton Readymix</h4>
